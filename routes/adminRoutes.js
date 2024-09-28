@@ -6,7 +6,7 @@ import { authenticateUser } from "../middlewares/authMiddleware.js";
 import { isAdmin } from "../middlewares/adminMiddleware.js";
 
 
-router.post("/train", authenticateUser, isAdmin, addNewTrain);
+router.post("/addtrain", authenticateUser, isAdmin, addNewTrain);
 router.patch("/increaseSeats", authenticateUser, isAdmin, updateSeats);
 
 export default router;

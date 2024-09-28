@@ -15,8 +15,6 @@ venv/
 /build/
 /dist/
 
-# Ignore environment-specific files
-.env
 
 # Ignore sensitive or private information
 config.ini
